@@ -2,12 +2,13 @@
   "compilerOptions": {
     "module": "es6",
     "target": "es6",
-    "rootDir": "src",
-    "outDir": "dist",
     "moduleResolution": "nodenext",
+    "outDir": "dist/esm",
+    "declaration": true,
+    "declarationDir": "dist/decl",
     "strict": true,
-    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "types": ["bun-types"]
-  }
+  },
+  "include": ["src/index.ts"]
 }
