@@ -5,7 +5,7 @@ Dependency Injection.
 
 ## Install
 
-`npm install @cronosmain/warps` || any other package managers, you know it.
+`npm install @cronosmain/warps` | any other package managers can be used, you know it.
 
 ## How it works
 
